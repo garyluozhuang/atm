@@ -1,3 +1,7 @@
+environment:
+  access_token:
+    secure: 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
+
 build_script:
   - cmd: dotnet format
   - cmd: dotnet build -c Release
@@ -5,6 +9,7 @@ build_script:
   # - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - cmd: doxygen Doxyfile
   - cmd: git config --global credential.helper store
+  - ps: Set-Content -Path "$HOME\.git-credentials" -Value "https://$($env:access_token):x-oauth-basic@github.com`n" -NoNewline
   - cmd: git config --global user.email "zluo3@wpi.edu"
   - cmd: git config --global user.name "garyluozhuang"
   - cmd: cd docs
