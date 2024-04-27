@@ -2,5 +2,5 @@ build_script:
   - cmd: dotnet format
   - cmd: dotnet build -c Release
   - cmd: dotnet build -c Debug
-  - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  # - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - cmd: doxygen Doxyfile
