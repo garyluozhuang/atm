@@ -1,3 +1,6 @@
 build_script:
-  - cmd: chmod +x build.ps1
-  - cmd: .\build.ps1
+  - cmd: dotnet format
+  - cmd: dotnet build -c Release
+  - cmd: dotnet build -c Debug
+  - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  - cmd: doxygen Doxyfile
