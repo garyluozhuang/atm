@@ -3,7 +3,7 @@ build_script:
   - cmd: dotnet build -c Release
   - cmd: dotnet build -c Debug
   # - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-  - cmd: doxygen Doxyfilef
+  - cmd: doxygen Doxyfile
   - cmd: cd docs
   - cmd: git add --all
   - cmd: git commit -m "Update documentation"

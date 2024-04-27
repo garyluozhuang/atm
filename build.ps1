@@ -8,3 +8,7 @@ dotnet build -c Debug
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 # Generate the documentation
 doxygen Doxyfile
+cd docs
+git add --all
+git commit -m "Update documentation"
+git push -u origin main
