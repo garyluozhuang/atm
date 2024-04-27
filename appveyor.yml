@@ -4,6 +4,7 @@ build_script:
   - cmd: dotnet build -c Debug
   # - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - cmd: doxygen Doxyfile
+  - cmd: git config --global credential.helper store
   - cmd: git config --global user.email "zluo3@wpi.edu"
   - cmd: git config --global user.name "garyluozhuang"
   - cmd: cd docs
