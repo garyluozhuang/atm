@@ -1,4 +1,4 @@
 
 build_script:
   - cmd: chmod +x build.ps1
-  - cmd: ./build.ps1
+  - cmd: build.ps1
