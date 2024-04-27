@@ -1,7 +1,3 @@
-
-install:
-  - ps: Set-ExecutionPolicy Unrestricted -Scope Process -Force
-
 build_script:
   - cmd: chmod +x build.ps1
   - cmd: ./build.ps1

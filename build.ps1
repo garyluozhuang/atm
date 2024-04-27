@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force
 # Format the code
 dotnet format
 # Build the code in release mode
