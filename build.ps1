@@ -8,5 +8,4 @@ dotnet build -c Debug
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 # Generate the documentation
 doxygen Doxyfile
-mkdir --parents _readthedocs/html/
-cp --recursive docs/html/* _readthedocs/html/
+
