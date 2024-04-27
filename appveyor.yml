@@ -4,5 +4,5 @@ build_script:
   - cmd: dotnet build -c Debug
   # - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - cmd: doxygen Doxyfile
-  - cmd: mkdir -p _readthedocs/html/
-  - cmd: cp -r docs/html/* _readthedocs/html/
+  - cmd: mkdir _readthedocs/html/
+  - cmd: cp docs/html/* _readthedocs/html/
