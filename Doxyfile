@@ -1,0 +1,12 @@
+PROJECT_NAME           = "ATM C# Project"
+PROJECT_BRIEF          = "A simple C# project"
+
+INPUT                  = ./ATMSimulation
+OUTPUT_DIRECTORY       = ./docs
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+EXTRACT_ALL            = YES
+SORT_MEMBER_DOCS       = NO
+WARN_NO_PARAMDOC       = YES

@@ -1,25 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "atm", "atm.csproj", "{FFC854F9-CAD9-45A6-921A-B93F10B1F99A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSimulation", "ATMSimulation\ATMSimulation.csproj", "{ADD8F3BE-BC68-4585-8FA4-44DE17D73279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSimulationTest", "ATMSimulationTest\ATMSimulationTest.csproj", "{2E2AF683-B833-425D-9A91-EE1326043C20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FFC854F9-CAD9-45A6-921A-B93F10B1F99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFC854F9-CAD9-45A6-921A-B93F10B1F99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFC854F9-CAD9-45A6-921A-B93F10B1F99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFC854F9-CAD9-45A6-921A-B93F10B1F99A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14418CA2-7279-4C82-9E21-B33449B29ED4}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD8F3BE-BC68-4585-8FA4-44DE17D73279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD8F3BE-BC68-4585-8FA4-44DE17D73279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD8F3BE-BC68-4585-8FA4-44DE17D73279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD8F3BE-BC68-4585-8FA4-44DE17D73279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2AF683-B833-425D-9A91-EE1326043C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2AF683-B833-425D-9A91-EE1326043C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2AF683-B833-425D-9A91-EE1326043C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2AF683-B833-425D-9A91-EE1326043C20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
