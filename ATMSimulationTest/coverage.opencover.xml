@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="317" visitedSequencePoints="290" numBranchPoints="105" visitedBranchPoints="90" sequenceCoverage="91.48" branchCoverage="85.71" maxCyclomaticComplexity="121" minCyclomaticComplexity="121" visitedClasses="6" numClasses="8" visitedMethods="24" numMethods="27" />
   <Modules>
-    <Module hash="D458A86F-0F12-4171-ACD8-E19BC3BEAE5C">
+    <Module hash="1C56BC44-3A61-4218-8460-D8E2FAAFA88A">
       <ModulePath>ATMSimulation.dll</ModulePath>
-      <ModuleTime>2024-04-27T04:48:13</ModuleTime>
+      <ModuleTime>2024-04-27T05:02:23</ModuleTime>
       <ModuleName>ATMSimulation</ModuleName>
       <Files>
         <File uid="1" fullPath="/Users/luozhuang/CS509/atm/ATMSimulation/Program.cs" />
