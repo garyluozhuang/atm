@@ -1,6 +1,6 @@
 environment:
   access_token:
-    secure: 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
+    secure: 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
 
 build_script:
   - cmd: dotnet format
