@@ -10,4 +10,4 @@ build_script:
   - cmd: cd docs
   - cmd: git add --all
   - cmd: git commit -m "Update documentation"
-  - cmd: git push -u origin main
+  - cmd: git push origin main
