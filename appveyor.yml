@@ -3,6 +3,8 @@ build_script:
   - cmd: dotnet build -c Release
   - cmd: dotnet build -c Debug
   # - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-  - cmd: doxygen Doxyfile
-  - cmd: mkdir _readthedocs/html/
-  - cmd: cp docs/html/* _readthedocs/html/
+  - cmd: doxygen Doxyfilef
+  - cmd: cd docs
+  - cmd: git add --all
+  - cmd: git commit -m "Update documentation"
+  - cmd: git push -u origin main
