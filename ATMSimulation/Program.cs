@@ -5,7 +5,7 @@ using Ninject;
 try
 {
     IKernel kernel = new StandardKernel(new ATMModule());
-    var atm = kernel.Get<ATM>();
+    var atm = kernel.Get<ATMhhh>();
     atm.Start();
 }
 catch (Exception ex)
@@ -31,7 +31,7 @@ namespace ATMSimulation
         }
     }
 
-    public class ATM(IUserInterface userInterface)
+    public class ATMhhh(IUserInterface userInterface)
     {
         private readonly IUserInterface userInterface = userInterface;
 

@@ -15,7 +15,7 @@ public class ATMSimulationTest
     public void ATMTest()
     {
         var mockUserInterface = new Mock<IUserInterface>();
-        var atm = new ATM(mockUserInterface.Object);
+        var atm = new ATMhhh(mockUserInterface.Object);
         atm.Start();
         mockUserInterface.Verify(m => m.DisplayLoginScreen(), Times.Once);
     }
